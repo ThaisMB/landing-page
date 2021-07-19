@@ -53,6 +53,7 @@ html {
     background-color: #160E0B;
     border: 1px solid #BF5B04;
     color: #fff;
+    max-height: 70%;
     justify-content: center;
     margin: 30px;
     padding: 25px;
