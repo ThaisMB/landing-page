@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
     
         let carregando = "<p>carregando...</p>";
     
-        let pronto = "<p class= 'message'> Email cadastrado com sucesso!</p><p class= 'message'> Em breve você receberá por e-mail as melhores ofertas dessa Black Friday!</p>";
+        let pronto = "<p class= 'message'> Email cadastrado com sucesso!</p><p class= 'message'> Em breve você receberá por email as melhores ofertas dessa Black Friday!</p>";
     
         phrase.classList.add("hide");;
 
