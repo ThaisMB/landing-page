@@ -16,7 +16,7 @@ html {
     display: flex;
     height: 100vh;
     justify-content: center;
-    width: 100%;
+    width: 95%;
 }
 
 .background-section-one {
@@ -109,7 +109,7 @@ footer {
 
     background-color:#160E0B;
     color: #fff;
-    height: 20px;
+    height: 3%;
     padding: 5px;
     text-align: center;
 
@@ -127,6 +127,10 @@ footer {
 
     .background-section-one {
         height: 30%;
+    }
+
+    .card-container {
+        margin: 10px;
     }
 
     #phrase {
