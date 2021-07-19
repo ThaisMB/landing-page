@@ -92,11 +92,17 @@ input, label {
     width: 10px;
 }
 
-#submit {
+#submit, #btnReturn {
     background: #BF5B04;
     border: #BF5B04;
     border-radius: 5px;
     font-weight:700;
+}
+
+.message {
+    font-size: 1.4rem;
+    margin: 30px;
+    text-align: center;
 }
 
 footer {
