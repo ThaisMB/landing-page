@@ -61,7 +61,7 @@ html {
 }
 
 
- #content {
+ .content {
     align-items: center;
     display: flex;
     flex-wrap:wrap;

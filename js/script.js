@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
 
     let email = document.getElementById('email').value;
 
-    let content = document.getElementById('content');
+    let content = document.querySelector('.content');
 
     if(checkbox.checked && name.length>0 && email.length>0)  {
         let data = {
@@ -33,7 +33,7 @@ form.addEventListener('submit', (e) => {
     
         setTimeout( () => {content.innerHTML = pronto} , 1000);
     } else {
-        
+
         content.classList.add("hide");
 
         let errorScreen = document.getElementById('error-screen');
