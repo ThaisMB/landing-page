@@ -27,7 +27,7 @@ form.addEventListener('submit', (e) => {
     
         let pronto = "<p class= 'message'> Email cadastrado com sucesso!</p><p class= 'message'> Em breve você receberá por e-mail as melhores ofertas dessa Black Friday!</p>";
     
-        phrase.innerHTML = "";
+        phrase.classList.add("hide");;
 
         content.innerHTML = carregando;
     
@@ -38,11 +38,14 @@ form.addEventListener('submit', (e) => {
         let errorScreen = document.getElementById('error-screen');
 
         errorScreen.classList.remove("hide");
+        phrase.classList.add("hide");;
+
         let btnReturn = document.getElementById('btnReturn');
 
         btnReturn.addEventListener('click', (e) => {
             content.classList.remove("hide");
             errorScreen.classList.add("hide");
+            phrase.classList.remove("hide");
         });
     }
 
