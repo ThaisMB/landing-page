@@ -35,8 +35,10 @@ form.addEventListener('submit', (e) => {
     } else {
 
         content.classList.add("hide");
-
         let errorScreen = document.getElementById('error-screen');
+
+        errorScreen.classList.remove("hide");
+        
         let btnReturn = document.getElementById('btnReturn');
 
         /*.addEventListener('click', (e) => {
