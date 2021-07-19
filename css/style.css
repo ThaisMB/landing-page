@@ -130,6 +130,10 @@ footer {
         height: 30%;
     }
 
+    .background-section-two {
+        padding: 10%;
+    }
+
     .card-container {
         margin: 50px;
     }
