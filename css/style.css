@@ -33,9 +33,6 @@ html {
 
 .background-section-two {
     background-image: url(../assets/bg2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     color:#f8d383;
     display: flex;
     flex-direction: column;
@@ -128,6 +125,17 @@ footer {
 
     .background-section-one {
         height: 20%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+    }
+
+    .background-section-two {
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100vw;
     }
 
     .card-container {
