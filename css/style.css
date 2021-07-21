@@ -55,7 +55,7 @@ html {
     max-height: 70%;
     justify-content: center;
     margin: 30px;
-    padding: 25px;
+    padding: 15px;
     min-width: 100px;
     max-width: 350px;
 }
@@ -97,6 +97,7 @@ input, label {
     border: #BF5B04;
     border-radius: 5px;
     font-weight:700;
+    margin-bottom: 10px;
 }
 
 .message {
