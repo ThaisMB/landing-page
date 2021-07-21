@@ -132,6 +132,7 @@ footer {
     }
 
     .background-section-two {
+        height: 70vh;
         background-attachment: fixed;
         background-size:cover;
         background-repeat: no-repeat;
