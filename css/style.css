@@ -137,13 +137,13 @@ footer {
     }
 
     .background-section-one {
-        height: 30vh;;
+        height: 100%;
         width: 100vw;
     }
 
 
     .background-section-two {
-        height: 67vh;
+        height: 80vh;
         width: 100vw;
     }
 
