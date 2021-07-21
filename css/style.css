@@ -88,8 +88,8 @@ input, label {
 }
 
 #agreement {
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
 }
 
 #submit, #btnReturn {
@@ -154,6 +154,11 @@ footer {
     #phrase {
         font-size: 1rem;
         width: 90%;
+    }
+
+    #agreement {
+        height: 20px;
+        width: 20px;
     }
 
     .message {
